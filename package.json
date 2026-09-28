@@ -1,0 +1,22 @@
+{
+  "name": "medsathi-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MedSathi — AI medication companion workspace (Phase 1)",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "build": "npm run build:server && npm run build:client",
+    "test": "npm --prefix client run test"
+  },
+  "keywords": [
+    "medsathi",
+    "ai-companion",
+    "elderly-care",
+    "voice-first"
+  ]
+}
